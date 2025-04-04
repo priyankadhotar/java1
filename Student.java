@@ -12,7 +12,12 @@ public class Student {
     public static void main(String[] args) {
         Student s1 = new Student("Amit", 20);
         Student s2 = new Student("Amit", 20);
+        Student s3 = new Student("Amit", 20);
+        Student s4 = new Student("Amit", 20);
+
         s1.displayInfo();
         s2.displayInfo();
+        s3.displayInfo();
+        s4.displayInfo();
     }
 }
